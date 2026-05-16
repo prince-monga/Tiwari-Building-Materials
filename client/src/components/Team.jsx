@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 import { Phone, UserCheck } from 'lucide-react'
 import { FadeIn, SectionLabel, SectionHeading } from './UI'
 
-const TEAM_IMG_1 = 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&q=85&auto=format&fit=crop&crop=face'
-const TEAM_IMG_2 = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=85&auto=format&fit=crop&crop=face'
+const TEAM_IMG_1 = new URL('../assets/father.jpeg', import.meta.url).href
+const TEAM_IMG_2 = new URL('../assets/lak.jpeg', import.meta.url).href
 
 const team = [
   { name: 'Mahesh Chand Tiwari', role: 'Founder & Director', desc: '23+ years of expertise in construction materials supply. Built the company from ground up with a vision of quality and trust.', img: TEAM_IMG_1, phone: '9694577828', tag: 'Founder' },

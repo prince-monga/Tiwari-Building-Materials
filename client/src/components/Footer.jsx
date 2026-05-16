@@ -9,7 +9,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <img src="/tiwari-logo.png" alt="Tiwari Building Materials" style={{ height: '72px', width: 'auto', objectFit: 'contain', display: 'block', marginBottom: '16px' }} />
+            <img src="/tiwari-logo.png" alt="Tiwari Building Materials" style={{ height: '72px', width: 'auto', objectFit: 'contain', display: 'block', marginBottom: '16px', filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.5))' }} />
             <p className="text-sm leading-relaxed text-gray-500 max-w-xs mb-5">
               Building Strong Foundations since 2001. Alwar's most trusted supplier of quality construction materials.
             </p>
@@ -46,7 +46,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-black text-sm uppercase tracking-wider mb-5">Quick Links</h4>
             <ul className="space-y-3 text-sm">
-              {[['/', 'Home'], ['/about', 'About Us'], ['/products', 'Products'], ['/blog', 'Blog'], ['/contact', 'Contact']].map(([to, label]) => (
+              {[['/', 'Home'], ['/about', 'About Us'], ['/products', 'Products'], ['/material-rates', 'Material Rates'], ['/brick-rates', 'Brick Rates'], ['/contact', 'Contact']].map(([to, label]) => (
                 <li key={to}>
                   <Link to={to} className="flex items-center gap-2 hover:text-[#F97316] transition-colors group">
                     <ChevronRight size={12} className="text-gray-700 group-hover:text-[#F97316] transition-colors" />

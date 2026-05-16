@@ -27,7 +27,7 @@ export default function Hero() {
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.05 }} className="mb-7">
-            <img src="/tiwari-logo.png" alt="Tiwari Building Materials" style={{ height: '90px', width: 'auto', objectFit: 'contain', display: 'block', maxWidth: '300px' }} />
+            <img src="/tiwari-logo.png" alt="Tiwari Building Materials" style={{ height: '90px', width: 'auto', objectFit: 'contain', display: 'block', maxWidth: '300px', filter: 'drop-shadow(0 4px 16px rgba(0,0,0,0.8))' }} />
           </motion.div>
 
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.15 }}

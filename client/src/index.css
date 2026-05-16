@@ -82,3 +82,13 @@ h1,h2,h3,h4,h5 { font-family: 'Montserrat', sans-serif; }
   max-width: 260px;
   display: block;
 }
+
+/* Mobile nav safe area */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .mob-bar {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Prevent horizontal scroll on mobile */
+.max-w-7xl { max-width: min(80rem, 100vw); }
